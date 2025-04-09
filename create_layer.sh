@@ -4,7 +4,7 @@
 DIRECTORY="$(pwd)"
 
 # Change it as per your requirement
-LAYER_NAME="requests-layer"
+LAYER_NAME="gpgrequests-layer"
 
 # Build the Docker image
 docker build -t lambda-layer "$DIRECTORY"
